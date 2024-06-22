@@ -27,7 +27,7 @@
 // button.removeEventListener('click', clickHandle);
 
 
-// Event Types :-
+// Mouse Events :-
 
 // 1. click :-
 
@@ -86,4 +86,21 @@
 // let h2 = document.getElementById('heading');
 // h2.addEventListener('mouseover', mouseover = function () {
 //     console.log('mouse inside heading 2!');
+// });
+
+
+// Keyboard Events :-
+
+// 1. keydown :-
+
+// let button = document.getElementById('myButton');
+// button.addEventListener('keydown', keydown = function () {
+//     console.log(`Key pressed: ${event.key}`);
+// });
+
+// 2. keyup :-
+
+// let button = document.getElementById('myButton');
+// button.addEventListener('keyup', keyup = function () {
+//     console.log(`Key pressed: ${event.key}`);
 // });
