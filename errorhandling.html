@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Error handling in JS</title>
+  </head>
+  <body>
+    <script>
+      //   // Syntax for try, catch and finally :-
+      //   try {
+      //     // code that may throw an error
+      //   } catch (error) {
+      //     // code to handle error
+      //   } finally {
+      //     // code that runs regardless of an error
+      //   }
+
+      try {
+        let result = someFunction();
+      } catch (error) {
+        console.log("An error occurred:", error.message);
+      } finally {
+        console.log("This will run regardless of an error");
+      }
+    </script>
+  </body>
+</html>
