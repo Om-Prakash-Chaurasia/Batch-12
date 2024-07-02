@@ -1,10 +1,12 @@
 import React from "react";
 import Greetings from "./components/Greetings";
+import Counter from "./components/Counter";
 
 function App() {
   return (
     <div>
-      <Greetings name="Om Praksh" />
+      <Greetings name="Om Prakash" />
+      <Counter />
     </div>
   );
 }
