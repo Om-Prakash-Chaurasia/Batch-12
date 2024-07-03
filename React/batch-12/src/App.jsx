@@ -2,13 +2,15 @@ import React from "react";
 import Greetings from "./components/Greetings";
 import Counter from "./components/Counter";
 import JsxExplanation from "./components/JsxExplanation";
+import PropStates from "./components/PropStates";
 
 function App() {
   return (
     <div>
-      <Greetings name="Om Prakash" />
+      {/* <Greetings name="Om Prakash" />
       <Counter />
-      <JsxExplanation />
+      <JsxExplanation /> */}
+      <PropStates name="Deepak" age="25" />
     </div>
   );
 }
