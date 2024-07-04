@@ -40,3 +40,15 @@ import React from "react";
 // }
 
 // export default Mailbox;
+
+// Ternary operator :-
+
+function Greetings(props) {
+  const isLoggedIn = props.isLoggedIn;
+
+  return (
+    <div>{isLoggedIn ? <h1>Welcome Back!</h1> : <h1>Please sign in.</h1>}</div>
+  );
+}
+
+export default Greetings;
