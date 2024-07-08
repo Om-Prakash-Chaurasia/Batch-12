@@ -1,8 +1,13 @@
-# React + Vite
+<!-- Hooks in React :- React Hooks are functions that allows you to use state and other React features in functional components.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. useState Hook :- Managing state in Functional components. It returns a state variable and a function to update that variable.
 
-Currently, two official plugins are available:
+Syntax :-
+import { useState } from 'react';
+const [call, setCall] = useState('0');
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+2. useEffect Hook :- Side Effect and Lifecycle Management in functional components.
+
+ -->
