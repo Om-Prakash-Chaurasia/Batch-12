@@ -11,7 +11,8 @@ import ControlledForm from "./components/ControlledForm";
 import UncontrolledForm from "./components/UncontrolledForm";
 import Timer from "./components/Hooks";
 import DataFetcher from "./components/Hooks";
-// import Counter from "./components/Hooks";
+import Counter from "./components/Hooks";
+import Parent from "./components/Parent";
 
 function App() {
   // const messages = ["Messsage 1", "Message 2", "Message 3"];
@@ -28,8 +29,9 @@ function App() {
       {/* <ControlledForm /> */}
       {/* <UncontrolledForm /> */}
       {/* <Counter /> */}
-      <Timer />
+      {/* <Timer /> */}
       {/* <DataFetcher /> */}
+      <Parent />
     </div>
   );
 }

@@ -30,25 +30,25 @@ import React, { useEffect, useState } from "react";
 
 // Ex 1 :-
 
-function Timer() {
-  const [seconds, setSeconds] = useState(0);
+// function Timer() {
+//   const [seconds, setSeconds] = useState(0);
 
-  useEffect(() => {
-    const interval = setTimeout(() => {
-      setSeconds((prevSeconds) => prevSeconds + 1);
-    }, 1000);
+//   useEffect(() => {
+//     const interval = setTimeout(() => {
+//       setSeconds((prevSeconds) => prevSeconds + 1);
+//     }, 1000);
 
-    return () => clearInterval(interval);
-  }, [5]);
+//     return () => clearInterval(interval);
+//   }, [5]);
 
-  return (
-    <div>
-      <h2>Seconds: {seconds}</h2>
-    </div>
-  );
-}
+//   return (
+//     <div>
+//       <h2>Seconds: {seconds}</h2>
+//     </div>
+//   );
+// }
 
-export default Timer;
+// export default Timer;
 
 // Ex 2 :-
 
@@ -94,3 +94,33 @@ export default Timer;
 // };
 
 // export default DataFetcher;
+
+// useEffect another example :-
+
+function Counter() {
+  const [count, setCount] = useState(0);
+  const [data, setData] = useState("Welcome");
+
+  useEffect(() => {
+    console.log("component mounted");
+  });
+
+  function updateCount() {
+    setCount(count + 1);
+  }
+
+  function updateData() {
+    setData("Goodbye");
+  }
+
+  return (
+    <div>
+      <h1>Button clicked {count} times.</h1>
+      <h2>Data {data}</h2>
+      <button onClick={updateCount}>Click</button>
+      <button onClick={updateData}>Update Data</button>
+    </div>
+  );
+}
+
+export default Counter;
