@@ -20,4 +20,10 @@ const [call, setCall] = useState('0');
 
 => When we use useEffect hook then it will execute at least once. i.e. during the 1st render i.e. while the component is mounting.
 
+
+3. Context API :- It helps us to pass data directly to the component which needs it.
+
+=> To use context api we should always remember three terms :-
+Create, Provider, and Consumer.
+
  -->
