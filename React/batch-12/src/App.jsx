@@ -13,6 +13,10 @@ import Timer from "./components/Hooks";
 import DataFetcher from "./components/Hooks";
 import Counter from "./components/Hooks";
 import Parent from "./components/Parent";
+import { Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import About from "./components/About";
+import Contact from "./components/Contact";
 
 function App() {
   // const messages = ["Messsage 1", "Message 2", "Message 3"];
@@ -31,7 +35,12 @@ function App() {
       {/* <Counter /> */}
       {/* <Timer /> */}
       {/* <DataFetcher /> */}
-      <Parent />
+      {/* <Parent /> */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 }

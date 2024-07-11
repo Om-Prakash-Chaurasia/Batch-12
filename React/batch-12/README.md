@@ -26,4 +26,21 @@ const [call, setCall] = useState('0');
 => To use context api we should always remember three terms :-
 Create, Provider, and Consumer.
 
+
+4. useContext Hook :-
+
+
+
+
+React Router :- We know that React is used to create SPA (Single Page Application) but how is that possible?
+
+=> It is possible by the help of react router. Instead of navigating to different pages React just Routes to the components by using React router.
+
+=> BrowserRouter, Routes, Route, Link.
+
+BrowserRouter :- By using BrowserRouter we are able to navigate into different pages without loading/reloading the page.
+
+=> Routes :- Routes is used to wrap multiple Route.
+
+=> Route :-
  -->
