@@ -44,3 +44,15 @@ BrowserRouter :- By using BrowserRouter we are able to navigate into different p
 
 => Route :-
  -->
+
+<!--
+
+React Redux :-
+
+When we talk about Redux, there are three terms that you should remember
+
+store (shop) <==========> Reducer (shopkeeper) <==================> action (customer)
+
+const [count, setCount] = useState(0);
+
+ -->
