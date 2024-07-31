@@ -29,18 +29,18 @@ function App() {
       {/* <EventHandling /> */}
       {/* <ConditionalRendering letMeCheck={true} isLoggedIn={true} /> */}
       {/* <Mailbox unreadMessages={messages} /> */}
-      {/* <Greetings isLoggedIn={true} /> */}
+      <Greetings isLoggedIn={true} />
       {/* <ControlledForm /> */}
       {/* <UncontrolledForm /> */}
       {/* <Counter /> */}
       {/* <Timer /> */}
       {/* <DataFetcher /> */}
       {/* <Parent /> */}
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-      </Routes>
+      </Routes> */}
     </div>
   );
 }
